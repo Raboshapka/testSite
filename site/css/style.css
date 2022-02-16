@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url(../fonts/roboto-bold-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url(../fonts/roboto-light-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-light-webfont.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url(../fonts/roboto-medium-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-medium-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url(../fonts/roboto-regular-webfont.woff2) format('woff2'),
+         url(../fonts/roboto-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'russo_oneregular';
+    src: url(../fonts/russoone-regular-webfont.woff2) format('woff2'),
+         url(../fonts/russoone-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'robotoregular';
+}
+h1, h2, h3{
+    font-family: 'russo_oneregular';
+}
+.navbar{
+    font-size: 16px;
+}
+.button-search{
+    color: white;
+    background-color: #242424;
+}
+.navigation{
+    color: white;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    fill: #F07C01;
+}
+.nav-link{
+    color: #979797;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link .active-nav{
+    color: white;
+}
+.main-picture{
+    color: white;
+    background-color: #242424;
+}
+.under-main-picture{
+    height: 150px;
+    background-color: black;
+}
+.catch{
+    margin-top: 20px;
+    background-color: white;
+}
+.footer-top{
+    height: 300px;
+    background-color: #242424;
+}
+.footer-bottom{
+    height: 150px;
+    background-color: black;
+}
